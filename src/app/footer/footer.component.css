@@ -1,0 +1,9 @@
+.foot{
+background-color:darkred;
+}
+
+@media only screen and (max-width: 300px) {
+  .foot{
+    align-content: center;
+  }
+}

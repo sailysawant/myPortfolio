@@ -1,0 +1,56 @@
+/*.name{*/
+  /*color: black;*/
+  /*background-image:url("../../assets/img/wall.jpg");*/
+  /*background-size: cover;*/
+  /*height: 1072px;*/
+/*!*}*!*/
+/*.name{*/
+  /*padding-top: 10rem;*/
+  /*padding-bottom: calc(10rem - 56px);*/
+  /*background-image: url("../../assets/img/wall.jpg");*/
+  /*background-position: center;*/
+  /*background-size: cover;*/
+
+  /*text-align: center;*/
+  /*height: 400px;*/
+  /*color: white;*/
+/*}*/
+.name{
+  background-image: url("../../assets/img/wall_a.jpg");
+  /*padding-top: 10rem;*/
+  /*padding-bottom: calc(10rem - 56px);*/
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  transform: translate(-50%, -40%);
+}
+.mypic {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  transform: translate(-30%, -20%);
+  height: 70%;
+  size: revert;
+}
+.quote{
+  position: absolute;
+  top: 92%;
+  left: 60%;
+  transform: translate(-50%, -40%);
+}
+
+
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .centered{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  }

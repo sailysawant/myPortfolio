@@ -1,0 +1,34 @@
+.skillset{
+  background-image: url("../../assets/img/skills1.png");
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.cont{
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.contskill{
+  padding-top: 10%;
+}
+.skills {
+
+  text-align: right; /* Right-align text */
+  padding-right: 20px; /* Add some right padding */
+  padding-left: 20px;
+  line-height: 12px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+  color: white; /* White text color */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.java {width: 90%; background-color: #77aaff;color:#77aaff }
+.ang {width: 90%; background-color: #845422;color: #845422;}
+.sql {width: 90%; background-color: #bc4b4b;color:#bc4b4b }
+.html {width: 90%; background-color: #ead61c;color: #ead61c} /* Green */
+.css {width: 80%; background-color: #ff77aa;color: #ff77aa} /* Blue */
+.js {width: 65%; background-color: #f44336;color: #f44336} /* Red */
+.py {width: 60%; background-color: #aaff77;color: #aaff77} /* Dark Grey */
+.re {width: 90%; background-color: #295f48;color:#295f48 }
